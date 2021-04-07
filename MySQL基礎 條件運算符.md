@@ -41,18 +41,16 @@
 ---
 
 - ## 案例一 查詢工資>12000 的員工訊息
-  > SELECT
-  > (\*)
-  > FROM
-  > employee
-  > WHERE salary > 12000
+  SELECT \*
+  FROM
+  employee
+  WHERE salary > 12000
 
 ---
 
 - ## 案例二 查詢部門編號不等於 90 號的員工名和部門編號
-  > SELECT
-  >
-  > > last_name, department_id
-  > > FROM
-  > > employees
-  > > WHERE department<>90
+  SELECT
+  last_name, department_id
+  FROM
+  employees
+  WHERE department<>90
